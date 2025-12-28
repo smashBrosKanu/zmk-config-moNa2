@@ -91,9 +91,9 @@
 
         layer_3 {
             bindings = <
-&kp ESCAPE      &kp LC(LS(HOME))  &kp UP_ARROW      &kp LC(END)       &trans                                               &trans          &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
-&kp TAB         &kp LEFT_ARROW    &kp DOWN_ARROW    &kp RIGHT_ARROW   &mkp MB1                              &trans         &trans          &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans
-&kp LEFT_SHIFT  &kp LG(NUMBER_0)  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_4)  &kp LG(NUMBER_4)    &trans         &kp NUMBER_0    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
+&kp ESCAPE      &kp LC(LS(HOME))  &kp UP_ARROW      &kp LC(END)       &trans                                               &kp COMMA       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_PLUS
+&kp TAB         &kp LEFT_ARROW    &kp DOWN_ARROW    &kp RIGHT_ARROW   &mkp MB1                              &trans         &kp PERIOD      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_MINUS
+&kp LEFT_SHIFT  &kp LG(NUMBER_0)  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_4)  &kp LG(NUMBER_4)    &trans         &kp NUMBER_0    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_SLASH
 &bt BT_SEL 0    &bt BT_SEL 1      &bt BT_CLR_ALL    &trans            &trans            &trans              &kp LS(ENTER)  &kp LS(DELETE)                                            &trans
             >;
 
