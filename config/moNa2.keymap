@@ -58,10 +58,10 @@
 
         default_layer {
             bindings = <
-&kp Q               &kp W           &kp E      &kp R            &kp T                                    &kp Y      &kp U  &lt 5 I    &kp O    &kp P
-&mt LEFT_CONTROL A  &kp S           &kp D      &kp F            &kp G                     &kp MINUS      &kp H      &kp J  &kp K      &kp L    &lt 2 MINUS
-&mt LEFT_SHIFT Z    &kp X           &kp C      &kp V            &kp B      &lt 4 COLON    &mkp MB2       &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&bt BT_SEL 0        &bt BT_CLR_ALL  &kp LANG2  &lt_mouse 3 MB1  &kp SPACE  &kp LANG1      &kp BACKSPACE  &kp ENTER                             &kp DEL
+&kp Q               &kp W           &kp E      &kp R            &kp T                                &kp Y          &kp U  &lt 5 I    &kp O    &kp P
+&mt LEFT_CONTROL A  &kp S           &kp D      &kp F            &kp G                     &kp MINUS  &kp H          &kp J  &kp K      &kp L    &lt 2 MINUS
+&mt LEFT_SHIFT Z    &kp X           &kp C      &kp V            &kp B      &lt 4 COLON    &mkp MB2   &kp N          &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&bt BT_SEL 0        &bt BT_CLR_ALL  &kp LANG2  &lt_mouse 3 MB1  &kp SPACE  &kp LANG1      &kp ENTER  &kp BACKSPACE                             &kp DEL
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -80,7 +80,7 @@
 
         layer_2 {
             bindings = <
-&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                   &kp CARET         &kp AMPERSAND      &msc SCRL_DOWN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                   &kp CARET         &kp AMPERSAND      &msc SCRL_UP    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK               &kp UNDERSCORE  &kp EXCLAMATION   &mkp MB1           &msc SCRL_DOWN  &mkp MB2              &kp PERCENT
 &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL    &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
 &trans                      &trans           &trans           &trans           &trans        &trans       &trans          &trans                                                                     &kp PIPE
