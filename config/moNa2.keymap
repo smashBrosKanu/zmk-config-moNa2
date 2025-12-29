@@ -37,15 +37,6 @@
     };
 
     behaviors {
-        lt_to_layer_0: lt_to_layer_0 {
-            compatible = "zmk,behavior-hold-tap";
-            label = "LAYER_TAP_TO_0";
-            bindings = <&mo>, <&to_layer_0>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-        };
-
         scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
@@ -81,7 +72,7 @@
 
         layer_1 {
             bindings = <
-&trans   &kp LC(LS(HOME))          &kp UP_ARROW              &kp LC(END)               &trans                                                            &kp COMMA        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_PLUS
+&trans   &kp HOME                  &kp UP_ARROW              &kp END                   &trans                                                            &kp COMMA        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_PLUS
 &kp TAB  &kp LEFT_ARROW            &kp DOWN_ARROW            &kp RIGHT_ARROW           &trans                                                &trans      &kp PERIOD       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_MINUS
 &trans   &kp LG(LC(LA(NUMBER_1)))  &kp LG(LC(LA(NUMBER_2)))  &kp LG(LC(LA(NUMBER_3)))  &kp LG(LC(LA(NUMBER_4)))  &kp LG(LC(LA(NUMBER_5)))    &trans      &kp NUMBER_0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_SLASH
 &trans   &trans                    &trans                    &trans                    &trans                    &trans                      &kp DELETE  &kp RIGHT_SHIFT                                            &trans
