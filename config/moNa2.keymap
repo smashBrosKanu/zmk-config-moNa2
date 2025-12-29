@@ -103,10 +103,10 @@
 
         layer_3 {
             bindings = <
-&kp ESCAPE      &kp LC(LS(HOME))          &kp UP_ARROW              &kp LC(END)               &trans                                                               &kp COMMA       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_PLUS
-&kp TAB         &kp LEFT_ARROW            &kp DOWN_ARROW            &kp RIGHT_ARROW           &kp LC(A)                                             &trans         &kp PERIOD      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_MINUS
-&kp LEFT_SHIFT  &kp LG(LC(LA(NUMBER_1)))  &kp LG(LC(LA(NUMBER_2)))  &kp LG(LC(LA(NUMBER_3)))  &kp LG(LC(LA(NUMBER_4)))  &kp LG(LC(LA(NUMBER_5)))    &trans         &kp NUMBER_0    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_SLASH
-&bt BT_SEL 0    &bt BT_SEL 1              &bt BT_CLR_ALL            &trans                    &trans                    &trans                      &kp LS(ENTER)  &kp LS(DELETE)                                            &trans
+&kp ESCAPE      &kp LC(LS(HOME))          &kp UP_ARROW              &kp LC(END)               &trans                                                            &kp COMMA     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_PLUS
+&kp TAB         &kp LEFT_ARROW            &kp DOWN_ARROW            &kp RIGHT_ARROW           &kp LC(A)                                             &trans      &kp PERIOD    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_MINUS
+&kp LEFT_SHIFT  &kp LG(LC(LA(NUMBER_1)))  &kp LG(LC(LA(NUMBER_2)))  &kp LG(LC(LA(NUMBER_3)))  &kp LG(LC(LA(NUMBER_4)))  &kp LG(LC(LA(NUMBER_5)))    &trans      &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_SLASH
+&bt BT_SEL 0    &bt BT_SEL 1              &bt BT_CLR_ALL            &trans                    &trans                    &trans                      &kp DELETE  &trans                                                  &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
