@@ -70,10 +70,10 @@
 
         default_layer {
             bindings = <
-&kp Q               &kp W         &kp E           &kp R        &kp T                                                    &kp Y      &kp U  &kp I      &kp O    &kp P
-&mt LEFT_CONTROL A  &kp S         &kp D           &kp F        &kp G                             &kp AT                 &kp H      &kp J  &kp K      &kp L    &lt 2 MINUS
-&kp Z               &kp X         &kp C           &kp V        &kp B     &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp ESCAPE          &kp LEFT_WIN  &kp LEFT_SHIFT  &lt 3 SPACE  &mkp MB1  &mkp MB2                &kp BACKSPACE          &kp ENTER                             &kp UNDER
+&kp Q               &kp W         &kp E           &kp R     &kp T                                                       &kp Y      &kp U  &kp I      &kp O    &kp P
+&mt LEFT_CONTROL A  &kp S         &kp D           &kp F     &kp G                                &kp AT                 &kp H      &kp J  &kp K      &kp L    &lt 2 MINUS
+&kp Z               &kp X         &kp C           &kp V     &kp B        &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp ESCAPE          &kp LEFT_WIN  &kp LEFT_SHIFT  &mkp MB1  &lt 3 SPACE  &mkp MB2                &kp BACKSPACE          &kp ENTER                             &kp UNDER
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -92,10 +92,10 @@
 
         layer_2 {
             bindings = <
-&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                   &kp CARET         &kp AMPERSAND      &msc SCRL_UP    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK               &kp UNDERSCORE  &kp EXCLAMATION   &mkp MB1           &msc SCRL_DOWN  &mkp MB2              &kp PERCENT
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL    &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
-&trans                      &trans           &trans           &trans           &trans        &trans       &trans          &trans                                                                     &kp PIPE
+&kp MINUS                   &kp F7                   &kp F8                   &kp F9                   &kp PLUS                                   &kp CARET         &kp LA(LEFT_ARROW)  &msc SCRL_UP    &kp LA(RIGHT_ARROW)  &kp RIGHT_PARENTHESIS
+&kp SLASH                   &kp LC(KP_NUMBER_4)      &kp LS(LC(KP_NUMBER_5))  &kp LS(LC(KP_NUMBER_6))  &kp ASTERISK               &kp UNDERSCORE  &kp EXCLAMATION   &mkp MB1            &msc SCRL_DOWN  &mkp MB2             &kp PERCENT
+&mt LEFT_SHIFT KP_NUMBER_0  &kp LS(LC(KP_NUMBER_1))  &kp LS(LC(KP_NUMBER_2))  &kp LS(LC(KP_NUMBER_3))  &kp PERIOD    &kp EQUAL    &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET   &kp LEFT_BRACE  &kp RIGHT_BRACE      &kp BACKSLASH
+&trans                      &trans                   &trans                   &trans                   &trans        &trans       &trans          &trans                                                                     &kp PIPE
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -105,7 +105,7 @@
             bindings = <
 &kp ESCAPE      &kp LC(LS(HOME))          &kp UP_ARROW              &kp LC(END)               &trans                                                               &kp COMMA       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_PLUS
 &kp TAB         &kp LEFT_ARROW            &kp DOWN_ARROW            &kp RIGHT_ARROW           &kp LC(A)                                             &trans         &kp PERIOD      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_MINUS
-&kp LEFT_SHIFT  &kp LG(LC(LA(NUMBER_0)))  &kp LG(LC(LA(NUMBER_1)))  &kp LG(LC(LA(NUMBER_2)))  &kp LG(LC(LA(NUMBER_4)))  &kp LG(LC(LA(NUMBER_4)))    &trans         &kp NUMBER_0    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_SLASH
+&kp LEFT_SHIFT  &kp LG(LC(LA(NUMBER_1)))  &kp LG(LC(LA(NUMBER_2)))  &kp LG(LC(LA(NUMBER_3)))  &kp LG(LC(LA(NUMBER_4)))  &kp LG(LC(LA(NUMBER_5)))    &trans         &kp NUMBER_0    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_SLASH
 &bt BT_SEL 0    &bt BT_SEL 1              &bt BT_CLR_ALL            &trans                    &trans                    &trans                      &kp LS(ENTER)  &kp LS(DELETE)                                            &trans
             >;
 
