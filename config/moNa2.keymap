@@ -30,6 +30,11 @@
             bindings = <&kp LC(A)>;
             key-positions = <10 20>;
         };
+
+        Shift+z {
+            bindings = <&kp LS(Z)>;
+            key-positions = <21 20>;
+        };
     };
 
     macros {
