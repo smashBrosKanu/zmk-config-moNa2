@@ -17,8 +17,8 @@
         compatible = "zmk,combos";
 
         lang2 {
-            bindings = <&kp LANG2>;
-            key-positions = <12 13>;
+            bindings = <&mkp MB2>;
+            key-positions = <36 40>;
         };
 
         lang1 {
