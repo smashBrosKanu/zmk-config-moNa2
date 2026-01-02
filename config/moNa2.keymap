@@ -82,10 +82,10 @@
 
         layer_1 {
             bindings = <
-&trans  &kp F7                &kp F8                   &kp F9                   &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &kp LC(LS(NUMBER_4))  &kp LS(LC(NUMBER_5))     &kp LS(LC(KP_NUMBER_6))  &trans            &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LS(LC(NUMBER_1))  &kp LS(LC(KP_NUMBER_2))  &kp LS(LC(KP_NUMBER_3))  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans                &trans                   &mkp MB3                 &trans  &trans    &trans  &trans                          &trans
+&trans  &kp F7                &kp F8                &kp F9                &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &kp LC(LS(NUMBER_4))  &kp LS(LC(NUMBER_5))  &kp LS(LC(NUMBER_6))  &trans            &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LS(LC(NUMBER_1))  &kp LS(LC(NUMBER_2))  &kp LS(LC(NUMBER_3))  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                &trans                &mkp MB3              &trans  &trans    &trans  &trans                          &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
