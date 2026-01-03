@@ -16,24 +16,14 @@
     combos {
         compatible = "zmk,combos";
 
-        lang2 {
-            bindings = <&mkp MB2>;
-            key-positions = <36 40>;
-        };
-
         lang1 {
-            bindings = <&mkp MB1>;
+            bindings = <&kp RS(RIGHT_CONTROL)>;
             key-positions = <17 18>;
         };
 
-        ctrl+z {
-            bindings = <&kp LC(A)>;
-            key-positions = <10 20>;
-        };
-
-        Shift+z {
-            bindings = <&kp LS(Z)>;
-            key-positions = <21 20>;
+        shift {
+            bindings = <&kp RIGHT_SHIFT>;
+            key-positions = <18 19>;
         };
     };
 
@@ -93,10 +83,10 @@
 
         layer_2 {
             bindings = <
-&trans   &kp HOME                  &kp UP_ARROW              &kp END                   &kp LA(RIGHT_ARROW)                                  &kp COMMA        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_PLUS
-&kp TAB  &kp LEFT_ARROW            &kp DOWN_ARROW            &kp RIGHT_ARROW           &kp LA(LEFT_ARROW)                    &kp LS(LG(S))  &kp PERIOD       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_MINUS
-&trans   &kp LG(LC(LA(NUMBER_1)))  &kp LG(LC(LA(NUMBER_2)))  &kp LG(LC(LA(NUMBER_3)))  &kp LG(LC(LA(NUMBER_4)))  &kp RBKT    &kp NUHS       &kp NUMBER_0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_SLASH
-&trans   &trans                    &trans                    &trans                    &trans                    &trans      &kp DELETE     &kp RIGHT_SHIFT                                            &trans
+&trans        &kp HOME                  &kp UP_ARROW              &kp END                   &kp LA(RIGHT_ARROW)                                  &kp COMMA        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_PLUS
+&kp TAB       &kp LEFT_ARROW            &kp DOWN_ARROW            &kp RIGHT_ARROW           &kp LA(LEFT_ARROW)                    &kp LS(LG(S))  &kp PERIOD       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_MINUS
+&kp LC(RBKT)  &kp LG(LC(LA(NUMBER_1)))  &kp LG(LC(LA(NUMBER_2)))  &kp LG(LC(LA(NUMBER_3)))  &kp LG(LC(LA(NUMBER_4)))  &kp RBKT    &kp NUHS       &kp NUMBER_0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_SLASH
+&trans        &trans                    &trans                    &trans                    &trans                    &trans      &kp DELETE     &kp RIGHT_SHIFT                                            &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
