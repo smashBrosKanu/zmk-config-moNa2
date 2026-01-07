@@ -35,6 +35,13 @@
             bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
         };
+
+        quote_paste: quote_paste {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp DOUBLE_QUOTES &kp SPACE &kp LC(V)>;
+            label = "QUOTE_PASTE";
+        };
     };
 
     behaviors {
@@ -85,7 +92,7 @@
         layer_1 {
             bindings = <
 &trans  &kp F7                &kp F8                &kp F9                &kp LC(NON_US_HASH)                    &trans        &trans        &trans        &trans        &trans
-&trans  &kp LC(LS(NUMBER_4))  &kp LS(LC(NUMBER_5))  &kp LS(LC(NUMBER_6))  &kp LC(RBKT)                   &trans  &trans        &trans        &trans        &trans        &trans
+&trans  &kp LC(LS(NUMBER_4))  &kp LS(LC(NUMBER_5))  &kp LS(LC(NUMBER_6))  &kp LC(RBKT)                   &trans  &trans        &quote_paste  &trans        &trans        &trans
 &trans  &kp LS(LC(NUMBER_1))  &kp LS(LC(NUMBER_2))  &kp LS(LC(NUMBER_3))  &trans               &trans    &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans
 &trans  &trans                &trans                &mkp MB3              &trans               &trans    &trans  &trans                                                  &bt BT_CLR_ALL
             >;
