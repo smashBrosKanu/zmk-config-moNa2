@@ -39,7 +39,7 @@
         quote_paste: quote_paste {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp DOUBLE_QUOTES &kp SPACE &kp LC(V)>;
+            bindings = <&kp LS(NUMBER_2) &kp SPACE &kp LC(V)>;
             label = "QUOTE_PASTE";
         };
     };
