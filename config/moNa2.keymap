@@ -88,7 +88,7 @@
         layer_2 {
             bindings = <
 &trans        &kp HOME                  &kp UP_ARROW              &kp END                   &kp LA(RIGHT_ARROW)                                  &kp COMMA        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_PLUS
-&kp TAB       &kp LEFT_ARROW            &kp DOWN_ARROW            &kp RIGHT_ARROW           &kp LA(LEFT_ARROW)                    &kp LS(LG(S))  &kp PERIOD       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_MINUS
+&kp TAB       &kp LEFT_ARROW            &kp DOWN_ARROW            &kp RIGHT_ARROW           &kp LA(LEFT_ARROW)                    &kp LS(LG(S))  &kp PERIOD       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
 &kp LC(RBKT)  &kp LG(LC(LA(NUMBER_1)))  &kp LG(LC(LA(NUMBER_2)))  &kp LG(LC(LA(NUMBER_3)))  &kp LG(LC(LA(NUMBER_4)))  &kp RBKT    &kp NUHS       &kp NUMBER_0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_SLASH
 &trans        &trans                    &kp LEFT_CONTROL          &trans                    &trans                    &trans      &kp DELETE     &kp RIGHT_SHIFT                                            &trans
             >;
