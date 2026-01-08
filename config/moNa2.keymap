@@ -19,7 +19,7 @@
 
         shift+ctrl {
             bindings = <&kp RS(RIGHT_CONTROL)>;
-            key-positions = <17 18>;
+            key-positions = <12 11>;
         };
 
         shift {
@@ -35,6 +35,11 @@
         lang1 {
             bindings = <&kp LANGUAGE_1>;
             key-positions = <17 18>;
+        };
+
+        ctrl {
+            bindings = <&kp RIGHT_CONTROL>;
+            key-positions = <20 19>;
         };
     };
 
