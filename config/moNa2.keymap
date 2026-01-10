@@ -41,6 +41,11 @@
             bindings = <&kp RIGHT_CONTROL>;
             key-positions = <20 19>;
         };
+
+        shift+alt {
+            bindings = <&kp RA(RIGHT_SHIFT)>;
+            key-positions = <18 19>;
+        };
     };
 
     macros {
