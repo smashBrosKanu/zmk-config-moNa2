@@ -73,13 +73,7 @@
         paste_powerpoint: paste_powerpoint {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&kp LC(V)>,
-                <&macro_wait_time 100>,
-                <&kp LEFT_CONTROL>,
-                <&macro_wait_time 100>,
-                <&kp T>;
-
+            bindings = <&kp LC(V) &kp LEFT_CONTROL &kp T>;
             label = "PASTE_POWERPOINT";
         };
     };
@@ -132,7 +126,7 @@
         layer_1 {
             bindings = <
 &trans                   &kp F7                &kp F8                &kp F9                &kp LC(NON_US_HASH)                              &trans                    &trans                    &trans                    &trans                    &trans
-&kp LC(INTERNATIONAL_1)  &kp LC(LS(NUMBER_4))  &kp LS(LC(NUMBER_5))  &kp LS(LC(NUMBER_6))  &kp LC(RBKT)                   &trans            &trans                    &quote_paste              &copy_all                 &kp LC(INT1)              &trans
+&kp LC(INTERNATIONAL_1)  &kp LC(LS(NUMBER_4))  &kp LS(LC(NUMBER_5))  &kp LS(LC(NUMBER_6))  &kp LC(RBKT)                   &trans            &trans                    &copy_all                 &paste_powerpoint         &kp LC(INT1)              &trans
 &trans                   &kp LS(LC(NUMBER_1))  &kp LS(LC(NUMBER_2))  &kp LS(LC(NUMBER_3))  &trans               &trans    &kp SINGLE_QUOTE  &kp LA(LC(LG(NUMBER_0)))  &kp LC(LG(LA(NUMBER_1)))  &kp LA(LC(LG(NUMBER_2)))  &kp LA(LC(LG(NUMBER_3)))  &kp LA(LC(LG(NUMBER_3)))
 &trans                   &trans                &trans                &mkp MB3              &trans               &trans    &trans            &trans                                                                                                  &trans
             >;
