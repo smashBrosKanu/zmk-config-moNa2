@@ -69,6 +69,19 @@
             bindings = <&kp LC(A) &kp LC(C)>;
             label = "COPY_ALL";
         };
+
+        paste_powerpoint: paste_powerpoint {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&kp LC(V)>,
+                <&macro_wait_time 100>,
+                <&kp LEFT_CONTROL>,
+                <&macro_wait_time 100>,
+                <&kp T>;
+
+            label = "PASTE_POWERPOINT";
+        };
     };
 
     behaviors {
@@ -107,10 +120,10 @@
 
         layer_2 {
             bindings = <
-&kp ESCAPE  &kp HOME        &kp UP_ARROW      &kp END          &kp LA(RIGHT_ARROW)                             &kp COMMA        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_PLUS
-&kp TAB     &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW  &kp LA(LEFT_ARROW)               &kp LS(LG(S))  &kp PERIOD       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
-&trans      &trans          &trans            &trans           &trans               &kp RBKT    &kp NUHS       &kp NUMBER_0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_SLASH
-&trans      &trans          &kp LEFT_CONTROL  &trans           &trans               &trans      &kp DELETE     &kp RIGHT_SHIFT                                            &kp KP_ASTERISK
+&kp ESCAPE  &kp HOME        &kp UP_ARROW      &kp END            &kp LA(RIGHT_ARROW)                             &kp COMMA        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_PLUS
+&kp TAB     &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW    &kp LA(LEFT_ARROW)               &kp LS(LG(S))  &kp PERIOD       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
+&trans      &trans          &trans            &paste_powerpoint  &trans               &kp RBKT    &kp NUHS       &kp NUMBER_0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_SLASH
+&trans      &trans          &kp LEFT_CONTROL  &trans             &trans               &trans      &kp DELETE     &kp RIGHT_SHIFT                                            &kp KP_ASTERISK
             >;
 
             sensor-bindings = <&scroll_up_down>;
