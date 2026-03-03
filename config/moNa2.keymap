@@ -73,7 +73,7 @@
         Paste_Ctrl_T: Paste_Ctrl_T {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(V) &kp LEFT_CONTROL &kp T>;
+            bindings = <&kp LC(A) &kp LC(V) &kp LEFT_CONTROL &kp T>;
             label = "PASTE_CTRL_T";
         };
     };
